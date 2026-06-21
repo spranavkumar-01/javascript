@@ -4,7 +4,7 @@ A fun browser-based number guessing game built with plain HTML, CSS, and vanilla
 This is a beginner JS learning project — no frameworks, no libraries (except Bootstrap for layout).
 
 --
-## Live 
+Live 
 https://spranavkumar-01.github.io/javascript/
 ---
 
