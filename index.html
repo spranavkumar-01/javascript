@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>                                          <!--removed text-bg-light p-3 -->
+
+    <canvas id="confettiCanvas"></canvas>
+
+    <div class="game-card">                    <!--added game-card wrapper -->
+
+        <h2> Guess the Number</h2>
+        <p class="subtitle">Pick a number between 1 and 100</p>
+
+        <!-- Scoreboard -->
+        <div class="scoreboard">              <!--fixed typo: scoeboard → scoreboard -->
+            <div class="score-box">
+                <div class="score-label">Attempts</div>    <!--label not lable -->
+                <div class="score-value" id="attemptsVal">0</div>
+            </div>
+            <div class="score-box">
+                <div class="score-label">Best Score</div>  <!--label not lable -->
+                <div class="score-value best" id="bestVal">—</div>
+            </div>
+            <div class="score-box">
+                <div class="score-label">Wins</div>        <!--label not lable -->
+                <div class="score-value wins" id="winsVal">0</div>
+            </div>
+        </div>                                <!--scoreboard closes HERE -->
+
+        <!-- Input -->
+        <div class="input-row">
+            <input type="number" id="guessInput" placeholder="Your guess..." min="1" max="100">
+            <button id="submitBtn">Guess</button>
+        </div>
+
+        <!-- Message -->
+        <div class="message-box" id="message">Make your first guess!</div>
+
+        <!-- Progress -->
+        <div class="attempts-row">
+            <span class="attempts-label">Progress</span>
+            <span class="attempts-count" id="attemptsText">0 / 10 attempts</span>
+        </div>
+        <div class="progress-bar-bg">
+            <div class="progress-bar-fill" id="progressBar"></div>
+        </div>
+
+        <!-- Guess history -->
+        <div class="history-label">Guess history</div>
+        <div class="history-pills" id="historyPills"></div>
+
+        <button id="resetBtn">New Game</button>
+
+    </div>                                    <!--game-card closes here -->
+
+    <script src="script.js"></script>
+</body>
+</html>
