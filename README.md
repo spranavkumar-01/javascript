@@ -3,6 +3,9 @@
 A fun browser-based number guessing game built with plain HTML, CSS, and vanilla JavaScript.  
 This is a beginner JS learning project — no frameworks, no libraries (except Bootstrap for layout).
 
+--
+## Live 
+https://spranavkumar-01.github.io/javascript/
 ---
 
 ## 🎮 How to Play
