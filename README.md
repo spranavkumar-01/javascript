@@ -128,7 +128,7 @@ A list of real bugs caught while building this — great learning moments:
 
 ## 👤 Author
 
-**Seelavantula Pranav Kumar (Rolex)**  
+**Seelavantula Pranav Kumar **  
 Backend Python Developer | Learning JavaScript  
 📍 Hyderabad, India
 
